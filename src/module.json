@@ -1,0 +1,19 @@
+{
+  "code": "corals-payment-fac",
+  "name": "FAC Payment Gateway",
+  "author": "Corals",
+  "type": "payment",
+  "description": "First Atlantic Commerce Payment Gateway",
+  "namespace": "Corals\\Modules\\Payment\\Fac",
+  "version": "1.0",
+  "folder": "Fac",
+  "autoload": "psr-4",
+  "icon": "fa fa-credit-card",
+  "require": {
+    "corals-payment": "^1.2"
+  },
+  "supported_platforms": [
+    "Ecommerce",
+    "Marketplace"
+  ]
+}
