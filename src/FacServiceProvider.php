@@ -2,21 +2,27 @@
 
 namespace Corals\Modules\Payment\Fac;
 
-use Illuminate\Support\ServiceProvider;
+use Corals\Foundation\Providers\BasePackageServiceProvider;
 use Corals\Settings\Facades\Modules;
 
-class FacServiceProvider extends ServiceProvider
+class FacServiceProvider extends BasePackageServiceProvider
 {
+    /**
+     * @var
+     */
     protected $defer = false;
+    /**
+     * @var
+     */
+    protected $packageCode = 'corals-payment-fac';
 
     /**
      * Bootstrap the application events.
      *
      * @return void
      */
-    public function boot()
+    public function bootPackage()
     {
-        $this->registerModulesPackages();
     }
 
     /**
@@ -24,7 +30,7 @@ class FacServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function registerPackage()
     {
     }
 
