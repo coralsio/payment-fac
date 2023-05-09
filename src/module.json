@@ -6,7 +6,7 @@
   "description": "First Atlantic Commerce Payment Gateway",
   "namespace": "Corals\\Modules\\Payment\\Fac",
   "version": "1.0",
-  "folder": "Fac",
+  "folder": "payment-fac",
   "autoload": "psr-4",
   "icon": "fa fa-credit-card",
   "require": {
