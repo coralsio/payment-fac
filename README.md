@@ -10,6 +10,10 @@ You can install the package via composer:
 composer require corals/payment-fac
 ```
 
+## Questions & Answers
+If you faced any issue you can check our questions center, and you can post your question from the following link
+[Questions & Answers](https://www.laraship.com/laraship-questions/)  
+
 ## Testing
 
 ```bash
