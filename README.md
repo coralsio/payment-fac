@@ -1,6 +1,8 @@
 # Corals Payment Fac
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+* First Atlantic (FAC) Payments Plugin is your good to go extension for handling eCommerce and Marketplace billing for Laraship Laravel platform. integrate FAC seamlessly with Laravel eCommerce and Marketplace platforms to support provide card Credit card one-time payment billing, You can enable it along with other payment gateways like PayPal or configure it as a standalone payment gateway.
+* FAC payment is very popular in South America and mainly East Caribbean, Trinidad, Jamaica, Barbados, Bahamas, Belize, Dominican Republic, Guyana, Cayman Islands
+
 
 ## Installation
 
